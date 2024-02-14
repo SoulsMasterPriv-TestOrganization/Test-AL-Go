@@ -4,6 +4,7 @@
 
 pageextension 56000 CustomerListExt2 extends "Customer List"
 {
+    // simple change to trigger workflow in release branch
     trigger OnOpenPage();
     begin
         Message('App published: Hello world');
